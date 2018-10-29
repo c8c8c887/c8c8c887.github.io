@@ -1,0 +1,259 @@
+*{
+  /* border: 1px solid black; */
+  font-family: "微軟正黑體" ;
+}
+body{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  border: 6px double black;
+}
+img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px dashed black;
+}
+ul{
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+h1,h2,h3{
+  margin: 0;
+}
+h1,h2{
+  display: inline;
+}
+hr{
+  border: 1px solid black;
+}
+.resume{
+  max-width: 950px;
+  
+}
+.top,.bottom{
+  display: flex;
+}
+.left{
+  flex: 6;
+  border-right: 1px solid #aaaaaa;
+}
+.right{
+  flex: 5;
+}
+.top{
+  padding: 30px 30px 15px;
+}
+.left,.right{
+  padding: 15px;
+}
+.t-right{
+  flex: 9;
+}
+.left{
+  padding-right: 50px;
+}
+.right{
+  padding-left: 50px;
+}
+.head{
+  display: flex;
+  align-items: flex-end;
+}
+.head_1{
+  flex: 2;
+  text-align: center;
+}
+.head_2{
+  flex: 7;
+  text-align: right;
+}
+.skill{
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill li{
+  width: 50%;
+  box-sizing: border-box;
+  text-align: center;
+}
+.circle_1{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+.deg_225,.deg_270{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  position: absolute;
+}
+.deg_90{
+  width: 50%;
+  height: 50%;
+  background-color: gray;
+  left: 50%;
+  top: 0;
+  position: absolute;
+}
+.deg_180{
+  width: 50%;
+  height: 50%;
+  background-color: gray;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+}
+.deg_225{
+  border-width: 0px 0px 25px 25px;
+  border-color: transparent transparent gray transparent;
+  left: 0;
+  top: 50%;
+}
+.deg_270{
+  border-width: 25px 25px 0px 0px;
+  border-color: gray transparent transparent transparent;
+  left: 0;
+  top: 50%;
+}
+.deg_270_squ{
+  width: 50%;
+  height: 50%;
+  background-color: gray;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+.language{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.language li{
+  text-align: center;
+  padding: 0px 5px;
+}
+.circle_2_1,.circle_2_2,.circle_2_3{
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.circle_2_1{
+  width: 100px;
+  height: 100px;
+}
+.circle_2_2{
+  width: 80px;
+  height: 80px;
+}
+.circle_2_3{
+  width: 60px;
+  height: 60px;
+}
+.school{
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.time_line{
+  flex: 1;
+}
+.school_and_maj{
+  flex: 5;
+  border-left: 1px solid black;
+  padding-left: 10px;
+}
+
+.personality li{
+  display: flex;
+  justify-content: space-between;
+}
+.bar{
+  width: 60%;
+  height: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.value{
+  height: 100%;
+  background-color: gray;
+  border-radius: 10px;
+}
+.value_1{
+  width: 80%;
+  animation: turn 2s timing-function delay 1 direction fill-mode;
+}
+@keyframes turn {
+  from{width: 0%;}
+  tp{width: 80%;}
+}
+.value_1{
+  animation: turn 2s 1;
+}
+.value_2{
+  width: 90%;
+}
+@keyframes turn {
+  from{width: 0%;}
+  tp{width: 90%;}
+}
+.value_2{
+  animation: turn 2s 1;
+}
+.value_3{
+  width: 80%;
+}
+@keyframes turn {
+  from{width: 0%;}
+  tp{width: 80%;}
+}
+.value_3{
+  animation: turn 2s 1;
+}
+.value_4{
+  width: 70%;
+}
+@keyframes turn {
+  from{width: 0%;}
+  tp{width: 70%;}
+}
+.value_4{
+  animation: turn 2s 1;
+}
+.value_5{
+  width: 80%;
+}
+@keyframes turn {
+  from{width: 0%;}
+  tp{width: 80%;}
+}
+.value_5{
+  animation: turn 2s 1;
+}
+.value_6{
+  width: 80%;
+}
+@keyframes turn {
+  from{width: 0%;}
+  tp{width: 80%;}
+}
+.value_6{
+  animation: turn 2s 1;
+}
+.exp{
+  display: flex;
+  padding-top: 20px;
+}
+.exp_left{
+  flex: 2;
+  padding-right: 10px;
+  border-right: 1px solid black;
+}
+.exp_right{
+  flex: 4;
+  padding-left: 10px;
+}
